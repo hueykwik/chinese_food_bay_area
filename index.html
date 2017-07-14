@@ -15,7 +15,6 @@
     <h3>Chinese Food San Francisco Bay Area</h3>
     <div id="map"></div>
     <script>
-      var markers = [];
 
       function createLocations() {
         var locations = [
@@ -39,11 +38,22 @@
 
       function addMarkersToMap(map, locations) {
         var bounds = new google.maps.LatLngBounds();
+        var markers = [];
 
         for (var i = 0; i < locations.length; i++) {
-          var position = locations[i].location;
-          var title = locations[i].title;
+          var marker = new google.maps.Marker({
+            map: map,
+            position: locations[i].location,
+            title: locations[i].title,
+            animation: google.maps.Animation.DROP,
+            id: i
+          });
+
+          markers.push(marker);
+          bounds.extend(markers[i].position);
         }
+
+        map.fitBounds(bounds);
       }
 
     </script>
