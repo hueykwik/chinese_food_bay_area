@@ -13,7 +13,7 @@
           <h4>Locations</h4>
           <input id="filter" type="text" placeholder="Filter by name or cuisine" data-bind="textInput: filterText">
           <ul id="location-list" data-bind="foreach: locationList">
-            <li data-bind="text: title"></li>
+            <li data-bind="text: name"></li>
           </ul>
         </div>
         <div class="col-sm-8" id="map"></div>

@@ -1,9 +1,9 @@
 var locations = [
-  {title: 'Gou Bu Li', location: {lat: 37.961543, lng: -122.325498}},
-  {title: 'Hometown Noodle', location: {lat: 37.261173, lng: -121.932017}},
-  {title: 'T4 Livermore', location: {lat: 37.680343, lng: -121.747897}},
-  {title: 'Sichuan Table', location: {lat: 37.775155, lng: -122.50606}},
-  {title: 'Tashi delek', location: {lat: 37.919973, lng: -122.314227}}
+  {name: 'Gou Bu Li', location: {lat: 37.961543, lng: -122.325498}},
+  {name: 'Hometown Noodle', location: {lat: 37.261173, lng: -121.932017}},
+  {name: 'T4 Livermore', location: {lat: 37.680343, lng: -121.747897}},
+  {name: 'Sichuan Table', location: {lat: 37.775155, lng: -122.50606}},
+  {name: 'Tashi delek', location: {lat: 37.919973, lng: -122.314227}}
 ];
 
 var ViewModel = function() {
@@ -12,8 +12,8 @@ var ViewModel = function() {
   self.filterText = ko.observable("");
   self.locationList = ko.computed(function() {
     return locations.filter(function(location) {
-      var title = location.title;
-      return title.toLowerCase().includes(self.filterText().toLowerCase());
+      var name = location.name;
+      return name.toLowerCase().includes(self.filterText().toLowerCase());
     })
   });
 }
@@ -38,7 +38,7 @@ function addMarkersToMap(map, locations) {
     var marker = new google.maps.Marker({
       map: map,
       position: locations[i].location,
-      title: locations[i].title,
+      title: locations[i].name,
       animation: google.maps.Animation.DROP,
       id: i
     });
