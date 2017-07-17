@@ -10,6 +10,7 @@ var ViewModel = function() {
   var self = this;
 
   self.locationList = ko.observableArray(locations);
+  self.filterText = ko.observable("");
 }
 
 ko.applyBindings(new ViewModel());
