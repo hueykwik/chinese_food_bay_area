@@ -11,8 +11,10 @@ var ViewModel = function() {
 
   self.filterText = ko.observable("");
   self.locationList = ko.computed(function() {
-    console.log(self.filterText());
-    return locations;
+    return locations.filter(function(location) {
+      var title = location.title;
+      return title.toLowerCase().includes(self.filterText().toLowerCase());
+    })
   });
 }
 
