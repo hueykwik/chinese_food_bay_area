@@ -40,12 +40,11 @@ function initMap() {
   addMarkersToMap(map, locations, true);
 }
 
-function addMarkersToMap(map, locations, fitBounds) {
-  var bounds = new google.maps.LatLngBounds();
+function createMarkers(locations) {
+  var markers = [];
 
   for (var i = 0; i < locations.length; i++) {
     var marker = new google.maps.Marker({
-      map: map,
       position: locations[i].location,
       title: locations[i].name,
       animation: google.maps.Animation.DROP,
@@ -53,12 +52,36 @@ function addMarkersToMap(map, locations, fitBounds) {
     });
 
     markers.push(marker);
-    bounds.extend(markers[i].position);
   }
 
-  if (fitBounds) {
-    map.fitBounds(bounds);
+  return markers;
+}
+
+function addMarkersToMap(map, locations, fitBounds) {
+  var bounds = new google.maps.LatLngBounds();
+
+  markers = createMarkers(locations);
+
+  for (var i = 0; i < markers.length; i++) {
+    markers[i].setMap(map);
   }
+
+  // for (var i = 0; i < locations.length; i++) {
+  //   var marker = new google.maps.Marker({
+  //     map: map,
+  //     position: locations[i].location,
+  //     title: locations[i].name,
+  //     animation: google.maps.Animation.DROP,
+  //     id: i
+  //   });
+
+  //   markers.push(marker);
+  //   bounds.extend(markers[i].position);
+  // }
+
+  // if (fitBounds) {
+  //   map.fitBounds(bounds);
+  // }
 }
 
 function clearMarkers() {
