@@ -16,6 +16,10 @@ var ViewModel = function() {
       return name.toLowerCase().includes(self.filterText().toLowerCase());
     })
   });
+
+  self.locationList.subscribe(function(newValue) {
+    console.log("The location list is now " + newValue);
+  });
 }
 
 ko.applyBindings(new ViewModel());
