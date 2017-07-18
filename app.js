@@ -18,15 +18,21 @@ var ViewModel = function() {
   });
 
   self.locationList.subscribe(function(newValue) {
-    console.log("The location list is now " + newValue);
+    console.log("The location list is now " + newValue.map(function(x) { return x.name }));
+
+    clearMarkers();
+    addMarkersToMap(map, self.locationList());
   });
 }
 
 ko.applyBindings(new ViewModel());
 
+var map;
+var markers = [];
+
 function initMap() {
   var sfba = {lat: 37.8272, lng: -122.2913};
-  var map = new google.maps.Map(document.getElementById('map'), {
+  map = new google.maps.Map(document.getElementById('map'), {
     zoom: 9,
     center: sfba
   });
@@ -36,7 +42,6 @@ function initMap() {
 
 function addMarkersToMap(map, locations) {
   var bounds = new google.maps.LatLngBounds();
-  var markers = [];
 
   for (var i = 0; i < locations.length; i++) {
     var marker = new google.maps.Marker({
@@ -54,4 +59,10 @@ function addMarkersToMap(map, locations) {
   map.fitBounds(bounds);
 }
 
+function clearMarkers() {
+  for (var i = 0; i < markers.length; i++) {
+    markers[i].setMap(null);
+  }
+  markers = [];
+}
 
