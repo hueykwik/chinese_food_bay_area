@@ -57,14 +57,22 @@ function createMarkers(locations) {
   return markers;
 }
 
+function setMapForMarkers(markers, map) {
+  for (var i = 0; i < markers.length; i++) {
+    markers[i].setMap(map);
+  }
+}
+
 function addMarkersToMap(map, locations, fitBounds) {
   var bounds = new google.maps.LatLngBounds();
 
   markers = createMarkers(locations);
 
-  for (var i = 0; i < markers.length; i++) {
-    markers[i].setMap(map);
-  }
+  setMapForMarkers(markers, map);
+
+  // for (var i = 0; i < markers.length; i++) {
+  //   markers[i].setMap(map);
+  // }
 
   // for (var i = 0; i < locations.length; i++) {
   //   var marker = new google.maps.Marker({
@@ -85,9 +93,7 @@ function addMarkersToMap(map, locations, fitBounds) {
 }
 
 function clearMarkers() {
-  for (var i = 0; i < markers.length; i++) {
-    markers[i].setMap(null);
-  }
+  setMapForMarkers(markers, null);
   markers = [];
 }
 
