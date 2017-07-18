@@ -21,7 +21,7 @@ var ViewModel = function() {
     console.log("The location list is now " + newValue.map(function(x) { return x.name }));
 
     clearMarkers();
-    addMarkersToMap(map, self.locationList());
+    addMarkersToMap(map, self.locationList(), false);
   });
 }
 
@@ -37,10 +37,10 @@ function initMap() {
     center: sfba
   });
 
-  addMarkersToMap(map, locations);
+  addMarkersToMap(map, locations, true);
 }
 
-function addMarkersToMap(map, locations) {
+function addMarkersToMap(map, locations, fitBounds) {
   var bounds = new google.maps.LatLngBounds();
 
   for (var i = 0; i < locations.length; i++) {
@@ -56,7 +56,9 @@ function addMarkersToMap(map, locations) {
     bounds.extend(markers[i].position);
   }
 
-  map.fitBounds(bounds);
+  if (fitBounds) {
+    map.fitBounds(bounds);
+  }
 }
 
 function clearMarkers() {
