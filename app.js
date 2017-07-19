@@ -57,6 +57,31 @@ function createMarkers(locations) {
   return markers;
 }
 
+function addInfoWindowToMarkers(markers, map) {
+  var infowindow = new google.maps.InfoWindow({
+    content: 'information'
+  });
+
+  for (var i = 0; i < markers.length; i++) {
+    var marker = markers[i];
+    marker.addListener('click', function() {
+      populateInfoWindow(this, infowindow);
+    });
+  }
+}
+
+function populateInfoWindow(marker, infowindow) {
+  if (infowindow.marker != marker) {
+    infowindow.marker = marker;
+    infowindow.setContent('<div>' + marker.title + '</div>');
+    infowindow.open(map, marker);
+    // Make sure the marker property is cleared if the infowindow is closed.
+    infowindow.addListener('closeclick',function(){
+      infowindow.setMarker = null;
+    });
+  }
+}
+
 function setMapForMarkers(markers, map) {
   for (var i = 0; i < markers.length; i++) {
     markers[i].setMap(map);
@@ -75,6 +100,8 @@ function setBounds(markers, map) {
 
 function addMarkersToMap(map, locations, fitBounds) {
   markers = createMarkers(locations);
+
+  addInfoWindowToMarkers(markers, map);
 
   setMapForMarkers(markers, map);
 
