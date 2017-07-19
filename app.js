@@ -100,9 +100,7 @@ function setBounds(markers, map) {
 
 function addMarkersToMap(map, locations, fitBounds) {
   markers = createMarkers(locations);
-
   addInfoWindowToMarkers(markers, map);
-
   setMapForMarkers(markers, map);
 
   if (fitBounds) {
