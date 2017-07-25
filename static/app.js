@@ -81,12 +81,26 @@ function populateInfoWindow(marker, infowindow) {
       infowindow.setMarker = null;
     });
 
+    var url = "http://localhost:5000/business?name={name}&latitude={lat}&longitude={long}"
+      .replace(/{name}/g, marker.title)
+      .replace(/{lat}/g, marker.position.lat)
+      .replace(/{long}/g, marker.position.lng);
+
+    console.log(url);
+
     $.ajax({
-            url: 'http://localhost:5000/test',
-            success: function(result) {
-              console.log(result);
-            }
-           });
+      url: url,
+      success: function(result) {
+        console.log(result);
+      }
+    });
+
+    // $.ajax({
+    //         url: 'http://localhost:5000/test',
+    //         success: function(result) {
+    //           console.log(result);
+    //         }
+    //        });
   }
 }
 
