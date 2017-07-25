@@ -80,6 +80,13 @@ function populateInfoWindow(marker, infowindow) {
     infowindow.addListener('closeclick',function(){
       infowindow.setMarker = null;
     });
+
+    $.ajax({
+            url: 'http://localhost:5000/test',
+            success: function(result) {
+              console.log(result);
+            }
+           });
   }
 }
 

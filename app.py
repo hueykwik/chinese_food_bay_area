@@ -7,6 +7,10 @@ from flask import render_template
 def showMap():
     return render_template("index.html")
 
+@app.route("/test")
+def test():
+    return "test"
+
 if __name__ == '__main__':
     app.secret_key = 'super_secret_key'
     app.debug = True
