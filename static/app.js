@@ -94,13 +94,6 @@ function populateInfoWindow(marker, infowindow) {
         console.log(result);
       }
     });
-
-    // $.ajax({
-    //         url: 'http://localhost:5000/test',
-    //         success: function(result) {
-    //           console.log(result);
-    //         }
-    //        });
   }
 }
 
