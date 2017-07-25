@@ -65,6 +65,7 @@ function addInfoWindowToMarkers(markers, map) {
   for (var i = 0; i < markers.length; i++) {
     var marker = markers[i];
     marker.addListener('click', function() {
+      console.log(this);
       populateInfoWindow(this, infowindow);
     });
   }
