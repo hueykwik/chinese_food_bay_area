@@ -3,10 +3,7 @@ app = Flask(__name__)
 
 from flask import render_template
 
-
 import yelp
-
-
 
 @app.route("/")
 def showMap():
