@@ -16,10 +16,6 @@ def getBusinessInfo():
 
 @app.route("/test")
 def test():
-    #bearer_token = obtain_bearer_token(API_HOST, TOKEN_PATH)
-    #print('bearer_token')
-    #print(bearer_token)
-
     yelp.query_api('lunch', 'San Francisco, CA')
 
     return "test"
