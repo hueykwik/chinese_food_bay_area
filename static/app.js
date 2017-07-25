@@ -74,7 +74,7 @@ function addInfoWindowToMarkers(markers, map) {
 function populateInfoWindow(marker, infowindow) {
   if (infowindow.marker != marker) {
     infowindow.marker = marker;
-    infowindow.setContent('<div>' + marker.title + '</div>');
+    infowindow.setContent('<div>' + marker.title + '</div><div>Loading...</div>');
     infowindow.open(map, marker);
     // Make sure the marker property is cleared if the infowindow is closed.
     infowindow.addListener('closeclick',function(){
@@ -86,12 +86,10 @@ function populateInfoWindow(marker, infowindow) {
       .replace(/{lat}/g, marker.position.lat)
       .replace(/{long}/g, marker.position.lng);
 
-    console.log(url);
-
     $.ajax({
       url: url,
       success: function(result) {
-        console.log(result);
+        infowindow.setContent('<div>' + marker.title + '</div><div>Yelp Rating: ' + result.rating + '</div>');
       }
     });
   }
