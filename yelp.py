@@ -85,12 +85,13 @@ def request(host, path, bearer_token, url_params=None):
     return response.json()
 
 
-def search(bearer_token, term, location):
+def search(bearer_token, term, latitude, longitude):
     """Query the Search API by a search term and location.
 
     Args:
         term (str): The search term passed to the API.
-        location (str): The search location passed to the API.
+        latitude (str): The search latitude passed to the API.
+        longitude (str): The search longitude passed to the API.
 
     Returns:
         dict: The JSON response from the request.
@@ -98,7 +99,8 @@ def search(bearer_token, term, location):
 
     url_params = {
         'term': term.replace(' ', '+'),
-        'location': location.replace(' ', '+'),
+        'latitude': latitude,
+        'longitude': longitude,
         'limit': SEARCH_LIMIT
     }
     return request(API_HOST, SEARCH_PATH, bearer_token, url_params=url_params)
@@ -118,16 +120,17 @@ def get_business(bearer_token, business_id):
     return request(API_HOST, business_path, bearer_token)
 
 
-def query_api(term, location):
+def query_api(term, latitude, longitude):
     """Queries the API by the input values from the user.
 
     Args:
         term (str): The search term to query.
-        location (str): The location of the business to query.
+        latitude (str): The latitude to query.
+        longitude (str): The longitude to query.
     """
     bearer_token = obtain_bearer_token(API_HOST, TOKEN_PATH)
 
-    response = search(bearer_token, term, location)
+    response = search(bearer_token, term, latitude, longitude)
 
     businesses = response.get('businesses')
 
@@ -144,3 +147,5 @@ def query_api(term, location):
 
     print(u'Result for business "{0}" found:'.format(business_id))
     pprint.pprint(response, indent=2)
+
+    return response

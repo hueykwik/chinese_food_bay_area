@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-from flask import render_template, request
+from flask import render_template, request, jsonify
 
 import yelp
 
@@ -11,14 +11,12 @@ def showMap():
 
 @app.route("/business")
 def getBusinessInfo():
-    print(request.args)
-    return "hi"
+    name = request.args['name']
+    latitude = request.args['latitude']
+    longitude = request.args['longitude']
+    json_response = yelp.query_api(name, latitude, longitude)
 
-@app.route("/test")
-def test():
-    yelp.query_api('lunch', 'San Francisco, CA')
-
-    return "test"
+    return jsonify(json_response)
 
 if __name__ == '__main__':
     app.secret_key = 'super_secret_key'
