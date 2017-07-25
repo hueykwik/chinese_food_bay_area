@@ -1,5 +1,7 @@
 Neighborhood Map
 
+Uses Python 3
+
 Depends on Flask.
 
 To run:
