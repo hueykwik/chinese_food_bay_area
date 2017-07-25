@@ -2,11 +2,18 @@ from flask import Flask
 app = Flask(__name__)
 
 from flask import render_template, request, jsonify
+from fastkml import kml
 
 import yelp
 
 @app.route("/")
 def showMap():
+    with open('regional-chinese-sf-bay-area.kml') as f:
+        doc = f.read()
+        k = kml.KML()
+        k.from_string(doc)
+        print(len(k._features))
+        print(doc)
     return render_template("index.html")
 
 @app.route("/business")
