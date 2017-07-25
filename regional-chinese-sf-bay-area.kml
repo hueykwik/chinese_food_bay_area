@@ -1,0 +1,4188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Regional Chinese in the SF Bay Area</name>
+    <description/>
+    <Style id="icon-503-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-4186F0-normal">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-4186F0-highlight">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-4186F0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-4186F0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-4186F0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-62AF44-normal">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-62AF44-highlight">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-62AF44">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-62AF44-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-62AF44-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-795046-normal">
+      <IconStyle>
+        <color>ff465079</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-795046-highlight">
+      <IconStyle>
+        <color>ff465079</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-795046">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-795046-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-795046-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-7C3592-normal">
+      <IconStyle>
+        <color>ff92357c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-7C3592-highlight">
+      <IconStyle>
+        <color>ff92357c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-7C3592">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-7C3592-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-7C3592-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-93D7E8-normal">
+      <IconStyle>
+        <color>ffe8d793</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-93D7E8-highlight">
+      <IconStyle>
+        <color>ffe8d793</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-93D7E8">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-93D7E8-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-93D7E8-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-A61B4A-normal">
+      <IconStyle>
+        <color>ff4a1ba6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-A61B4A-highlight">
+      <IconStyle>
+        <color>ff4a1ba6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-A61B4A">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-A61B4A-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-A61B4A-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-A7B5D7-normal">
+      <IconStyle>
+        <color>ffd7b5a7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-A7B5D7-highlight">
+      <IconStyle>
+        <color>ffd7b5a7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-A7B5D7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-A7B5D7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-A7B5D7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-B29189-normal">
+      <IconStyle>
+        <color>ff8991b2</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-B29189-highlight">
+      <IconStyle>
+        <color>ff8991b2</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-B29189">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-B29189-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-B29189-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-B7DBAB-normal">
+      <IconStyle>
+        <color>ffabdbb7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-B7DBAB-highlight">
+      <IconStyle>
+        <color>ffabdbb7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-B7DBAB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-B7DBAB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-B7DBAB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-C6A4CF-normal">
+      <IconStyle>
+        <color>ffcfa4c6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-C6A4CF-highlight">
+      <IconStyle>
+        <color>ffcfa4c6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-C6A4CF">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-C6A4CF-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-C6A4CF-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-E6EEA3-normal">
+      <IconStyle>
+        <color>ffa3eee6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-E6EEA3-highlight">
+      <IconStyle>
+        <color>ffa3eee6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-E6EEA3">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-E6EEA3-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-E6EEA3-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-EE9C96-normal">
+      <IconStyle>
+        <color>ff969cee</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-EE9C96-highlight">
+      <IconStyle>
+        <color>ff969cee</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-EE9C96">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-EE9C96-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-EE9C96-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F4B400-normal">
+      <IconStyle>
+        <color>ff00b4f4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F4B400-highlight">
+      <IconStyle>
+        <color>ff00b4f4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F4B400">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4B400-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4B400-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F4EB37-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F4EB37-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F4EB37">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4EB37-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4EB37-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F8971B-normal">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F8971B-highlight">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F8971B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F8971B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F8971B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-FAD199-normal">
+      <IconStyle>
+        <color>ff99d1fa</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-FAD199-highlight">
+      <IconStyle>
+        <color>ff99d1fa</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-FAD199">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-FAD199-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-FAD199-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-FFDD5E-normal">
+      <IconStyle>
+        <color>ff5eddff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-FFDD5E-highlight">
+      <IconStyle>
+        <color>ff5eddff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-FFDD5E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-FFDD5E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-FFDD5E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-FFFFFF-normal">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-FFFFFF-highlight">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-FFFFFF">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-FFFFFF-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-FFFFFF-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-FFFFFF-nodesc-normal">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-FFFFFF-nodesc-highlight">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-FFFFFF-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-FFFFFF-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-FFFFFF-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Restaurants</name>
+      <Placemark>
+        <name>OK Noodle</name>
+        <description>Shaanxi</description>
+        <styleUrl>#icon-503-A7B5D7</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0176879,37.5378542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>QQ Noodle</name>
+        <description>Shaanxi</description>
+        <styleUrl>#icon-503-A7B5D7</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9163708,37.4218145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>QQ Noodles</name>
+        <description>Shaanxi</description>
+        <styleUrl>#icon-503-A7B5D7</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0244076,37.3107866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thousand Tasty</name>
+        <description>Shaanxi</description>
+        <styleUrl>#icon-503-A7B5D7</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9102083,37.4575552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Dong Best</name>
+        <description>Shandong</description>
+        <styleUrl>#icon-503-EE9C96</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4596426,37.7810751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shandong Deluxe</name>
+        <description>Shandong</description>
+        <styleUrl>#icon-503-EE9C96</styleUrl>
+        <Point>
+          <coordinates>
+            -122.477531,37.743108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Imperial Tea Court</name>
+        <description>Shaanxi wide noodles</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.393411,37.795581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Imperial Tea Court</name>
+        <description>Shaanxi wide noodles</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2689796,37.8798555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Liang's Village Cuisine]]></name>
+        <description><![CDATA[Taiwanese Military Dependent's Cuisine]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0193302,37.3222601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Liang's Kitchen]]></name>
+        <description><![CDATA[Taiwanese Military Dependent's Cuisine]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9165009,37.4219934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>M.Y. China</name>
+        <description>Shanxi noodles</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4065653,37.7842352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafe Tibet</name>
+        <description>Tibet</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2701586,37.8716457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nomad Tibetan Restaurant</name>
+        <description>Tibet</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2847393,37.8912615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tashi delek</name>
+        <description>Tibet</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3142884,37.919935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Classic Guilin Rice Noodles</name>
+        <description>Guangxi</description>
+        <styleUrl>#icon-503-795046</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2685687,37.799616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guilin Gourmet</name>
+        <description>Guangxi</description>
+        <styleUrl>#icon-503-795046</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0228589,37.5893454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Classic Guilin Rice Noodles</name>
+        <description>Guangxi</description>
+        <styleUrl>#icon-503-795046</styleUrl>
+        <Point>
+          <coordinates>
+            -122.032741,37.303976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gui Lin Noodle House</name>
+        <description>Guangxi</description>
+        <styleUrl>#icon-503-795046</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9295516,37.4920694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hankow Cuisine</name>
+        <description>Wuhan / Hubei</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0328739,37.3074949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hot duck</name>
+        <description>Wuhan / Hubei</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4795491,37.7822718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Root China Restaurant</name>
+        <description>Jiangxi</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4306938,37.6512076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noodles Fresh | Discover Chinese Cuisine</name>
+        <description>Jiangxi</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3025563,37.9014667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Apple Green Bistro</name>
+        <description>Dongbei / Northeast</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0158201,37.3357114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chef Xiu Restaurant</name>
+        <description>Dongbei / Northeast</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0853589,37.3861176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHINA NORTH DUMPLING INC</name>
+        <description>Dongbei / Northeast</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4779414,37.7540577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dong Bei Mama</name>
+        <description>Dongbei / Northeast</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4703422,37.7804718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LiLian Gui XunRou DaBing / Perfect Chinese Food</name>
+        <description>Dongbei / Northeast</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9169193,37.4205705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Shen Yang Restaurant</name>
+        <description>Dongbei / Northeast</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0223283,37.5895401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nutrition House</name>
+        <description>Dongbei / Northeast</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -121.915996,37.421099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nutrition Restaurant</name>
+        <description>Dongbei / Northeast</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0149745,37.3359844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sungari Dumpling House</name>
+        <description>Dongbei / Northeast</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4339367,37.7254561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alice Chinese Bistro</name>
+        <description>Shandong</description>
+        <styleUrl>#icon-503-EE9C96</styleUrl>
+        <Point>
+          <coordinates>
+            -122.466603,37.762354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ark Chinese Restaurant</name>
+        <description>Shandong</description>
+        <styleUrl>#icon-503-EE9C96</styleUrl>
+        <Point>
+          <coordinates>
+            -122.242915,37.7645235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>China Village Restaurant</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2912248,37.890863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Great China</name>
+        <description>Shandong</description>
+        <styleUrl>#icon-503-EE9C96</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2661775,37.8676474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Happy Dumpling (see farmer's market schedule)]]></name>
+        <description>Shandong</description>
+        <styleUrl>#icon-503-EE9C96</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4770974,37.7280769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shan Dong Restaurant</name>
+        <description>Shandong</description>
+        <styleUrl>#icon-503-EE9C96</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2698949,37.8006672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tong Dumpling</name>
+        <description>Shandong</description>
+        <styleUrl>#icon-503-EE9C96</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0150812,37.3355181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsing Tao Chinese Restaurant</name>
+        <description>Shandong</description>
+        <styleUrl>#icon-503-EE9C96</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9750263,37.2872137,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beijing Restaurant</name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -122.000043,37.3508182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chef Wang's Restaurant]]></name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4001434,37.6093594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chef Yu's]]></name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2630533,37.8354147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>China Way Restaurant</name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9917937,37.3526548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Koryo Jajang</name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -122.263429,37.832017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Tung</name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4690279,37.7637449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Wang Restaurant</name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4295076,37.7859506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tong Soon Garden Restaurant</name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9858212,37.3521614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ZaZang</name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9948367,37.3539303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zazang Korean Noodle</name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4418476,37.7832311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beijing Duck House</name>
+        <description>Beijing</description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0241272,37.3106846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beijing Restaurant</name>
+        <description>Beijing</description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4372505,37.7235506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boiling Beijing</name>
+        <description>Beijing</description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4115591,37.6274153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Everyday Beijing Restaurant</name>
+        <description>Beijing</description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <Point>
+          <coordinates>
+            -122.319466,37.563069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>House of Pancakes</name>
+        <description>Beijing</description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4764126,37.7428917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taste Good Beijing Cuisine</name>
+        <description>Beijing</description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9075762,37.4293293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Darda Seafood Restaurant</name>
+        <description>Islamic Chinese (Hui)</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9173438,37.4236176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ma's Restaurant]]></name>
+        <description>Islamic Chinese (Hui)</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.887725,37.387817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Mandarin</name>
+        <description>Islamic Chinese (Hui)</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5007768,37.7383525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Famous Food Restaurant</name>
+        <description>Tianjin</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0162011,37.3662044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Garlic Restaurant (津蒜子二店）</name>
+        <description>Tianjin</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0311715,37.2964177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Garlic</name>
+        <description>Tianjin</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8757829,37.4152798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gou Bu Li</name>
+        <description>Tianjin</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3258354,37.9613416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tian Jin Dumplings</name>
+        <description>Tianjin</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2719429,37.8010251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Sheep Mongolian Hot Pot</name>
+        <description>Mongolia / Inner Mongolia</description>
+        <styleUrl>#icon-503-F4B400</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4101028,37.7873621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Sheep Mongolian Hot Pot</name>
+        <description>Mongolia / Inner Mongolia</description>
+        <styleUrl>#icon-503-F4B400</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3234066,37.5655939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Sheep Mongolian Hot Pot</name>
+        <description>Mongolia / Inner Mongolia</description>
+        <styleUrl>#icon-503-F4B400</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0785843,37.3950884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Sheep Mongolian Hot Pot</name>
+        <description>Mongolia / Inner Mongolia</description>
+        <styleUrl>#icon-503-F4B400</styleUrl>
+        <Point>
+          <coordinates>
+            -122.021866,37.587718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Sheep Mongolian Hot Pot</name>
+        <description>Mongolia / Inner Mongolia</description>
+        <styleUrl>#icon-503-F4B400</styleUrl>
+        <Point>
+          <coordinates>
+            -122.005891,37.322599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mongol Xool / Asian Grill </name>
+        <description>Mongolia / Inner Mongolia</description>
+        <styleUrl>#icon-503-F4B400</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2690323,37.803677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bei Fang Style</name>
+        <description>Other Northern and Jiaozi / dumplings (might actually be Shandong or Dongbei)</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -122.481879,37.763502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Din Ding Dumpling House</name>
+        <description>Other Northern and Jiaozi / dumplings (might actually be Shandong or Dongbei)</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9808703,37.5508871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Fuji Huoshao & Dumpling]]></name>
+        <description>Other Northern and Jiaozi / dumplings (might actually be Shandong or Dongbei)</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0136874,37.3085015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>House Of Xian Dumpling</name>
+        <description>Other Northern and Jiaozi / dumplings (might actually be Shandong or Dongbei)</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -122.405408,37.796532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Xiao Long Bao</name>
+        <description>Other Northern and Jiaozi / dumplings (might actually be Shandong or Dongbei)</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4659881,37.7827425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dumpling Empire</name>
+        <description>Other Northern, descendant/affiliated with restauranteur Qinghe Li</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4086048,37.6544598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>House of Dumplings</name>
+        <description>Other Northern, descendant/affiliated with restauranteur Qinghe Li</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0028237,37.5915552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>I Dumpling</name>
+        <description>Other Northern, descendant/affiliated with restauranteur Qinghe Li</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2346002,37.4863799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King of Dumplings</name>
+        <description>Other Northern, descendant/affiliated with restauranteur Qinghe Li</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.004193,37.5222355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King of Noodles</name>
+        <description>Other Northern, descendant/affiliated with restauranteur Qinghe Li</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4757401,37.7634516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kingdom of Dumpling</name>
+        <description>Other Northern, descendant/affiliated with restauranteur Qinghe Li</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4846299,37.7424984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Town of Dumpling</name>
+        <description>Other Northern, descendant/affiliated with restauranteur Qinghe Li</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2875388,37.5311125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bamboo Garden</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0980868,37.4040962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bund Shanghai Restaurant</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4059564,37.7962448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dumpling Kitchen</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4870518,37.7424087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fey Restaurant</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1867025,37.4557638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Five Happiness</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4639634,37.7812815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Full House</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.385802,37.595188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gangnam House</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8883209,37.4481684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gourmet Noodle House</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4598456,37.7809099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jin Jin Gourmet</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.007589,37.3811513,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Shanghai Restaurant</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3053861,37.5449922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lulu's Kitchen]]></name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0436991,37.9728105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Shanghai Restaurant</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.47483,37.780311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panda Dumpling</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2520275,37.4990426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Cuisine</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0226983,37.5894639,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Delight Inc</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9183663,37.423597,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Dumpling</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0242618,37.3106313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Dumpling King</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4945139,37.7756775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Dumpling King</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.451027,37.7317469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Dumpling Shop</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3936516,37.6020758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SHANGHAI FAMILY CUISINE</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9097556,37.4519476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Flavor</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9308627,37.4936349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Flavor Shop</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.015795,37.3662632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Garden</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0402452,37.3368262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Garden</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -121.88748,37.387046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai House</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4980216,37.7755273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Noodle House</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9653036,37.5358996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Restaurant</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.015182,37.3355379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Restaurant</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2704011,37.800381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Su Hong Eatery-Palo Alto</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.121104,37.407193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Xiao Long Bao Kitchen</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4110025,37.6551599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jai Yun Restaurant</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.404458,37.7946469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taste of Jiangnan</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4629444,37.783214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chef Yu</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0304962,37.3767526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chili Garden</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9185546,37.423534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Henry's Hunan Restaurant]]></name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4071898,37.7995533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hunan Cuisine 四姐川湘</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9895502,37.520279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Noodle Shop</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3084062,37.5436906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ping`s Bistro</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -122.044329,37.57535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hunan Impression</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9938025,37.3088863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>wonderful</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3912599,37.6007354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hometown Noodle</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9320169,37.2611734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noodle Talk</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -122.033649,37.3675534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yum Noodles</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9942062,37.3238897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ancient Szechuan</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3093768,37.9119813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CBI kitchen</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9173963,37.4236788,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chengdu Style Restaurant</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2566287,37.8687793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chef Zhao Bistro 老赵川菜</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3061033,37.5445094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chef Zhao Bistro</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0750355,37.3996767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chili House</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4671491,37.7830052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chili Pot</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0402502,37.3367995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>China Lounge Restaurant and Bar</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -121.876206,37.698215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Da Sichuan Restaurant</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1316389,37.4179215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grand Hot Pot Lounge</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4573439,37.781082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hunan House</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.40701,37.795191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Happy SiChuan</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4010844,37.6097325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JX Cuisine</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9950091,37.3384564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King Tsin Restaurant</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2825668,37.8914114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LITTLE SICHUAN RESTAURANT</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.322414,37.563774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Sichuan</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0462467,37.5477112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Szechuan</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4057184,37.7978298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SF-MLT</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4789364,37.7825039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mama Ji's]]></name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4386846,37.7608213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maple Restaurant</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4518929,37.709339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pop Pot Sichuan Seafood</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3090203,37.5472295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sichuan Chong Qing Cuisine</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3246236,37.5650166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sichuan Fortune House</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0610655,37.9504164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sichuan Fusion</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3067383,37.8987278,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sichuan Home</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4735742,37.7803621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sichuan House</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0394836,37.9305403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Legend Szechuan Cuisine</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9099537,37.4553006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spicy Empire</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3071362,37.5436448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spicy King</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4069736,37.7940748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Newark Cafe</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0473917,37.5477774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spicy Queen</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4602852,37.7809674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spicy Town</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9741171,37.5003743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tofu Village</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4786487,37.7637743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>YiPing Restaurant</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9752117,37.7748879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yi Yuan Szechuan Restaurant</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4055556,37.6140506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yummy Szechuan</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.404684,37.61323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Z & Y Restaurant]]></name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.406018,37.795932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Celestial Flame</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4712299,37.7824058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>General Pot</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -121.974055,37.500275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sizzling Pot King</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0287799,37.3766525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ai Noodle</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0153993,37.3359865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ASJ Restaurant</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8834646,37.3870532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>China Bee</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3242051,37.5675108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chi</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9105355,37.4570759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dragon Gate</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2755495,37.7967789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Du Xiao Yue</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9503477,37.4911789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5 Joy Restaurant</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.250363,37.562975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fusion House</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9297179,37.49301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grand Harbor</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.930153,37.4919631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hi Pot</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0060427,37.322883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jenny's Kitchen]]></name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9951607,37.3098547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mama Chef</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9922603,37.3235105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ma Ma Chen's Kitchen]]></name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0057329,37.3225858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>My Dumpling</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9172718,37.4234658,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New China Foods</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.022153,37.589532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Porridge</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9100153,37.4551676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Queen House</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0792421,37.3928977,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Hot Wok</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.014975,37.322097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Southland Flavor Cafe</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.015368,37.3354217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taste of Formosa</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4854524,37.7821598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taikee Wonton</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8892183,37.3963071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taiwan Bento</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2664418,37.8110169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taiwan Cafe</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9099906,37.4360282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taiwan Liu He Snacks</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9741882,37.3188299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taiwan Porridge Kingdom</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0402398,37.3366568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taiwan Restaurant 台灣飯店</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4641492,37.7827901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafe taiwan</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.858768,37.6694727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SPiCES Fremont 辣妹子-鍋鼎 「土匪湘菜」</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9375827,37.5307293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spices 3 Restaurants</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.270437,37.80214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spices II</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4646327,37.7832083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Menkee Wonton</name>
+        <description>Teochew / Chiuchow / Chaozhou</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4820473,37.7538247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Teo Chow Noodle Shack</name>
+        <description>Teochew / Chiuchow / Chaozhou</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9499741,37.4912388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ying Kee Restaurant</name>
+        <description>Teochew / Chiuchow / Chaozhou</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.271825,37.800044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hai Ky Mi Gia</name>
+        <description>Vietnamese / Teochew / Chiuchow / Chaozhou / Teo Chow / Chinjiew</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4179172,37.7840902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>thai nghiep ky mi gia</name>
+        <description>Vietnamese / Teochew / Chiuchow / Chaozhou / Teo Chow / Chinjiew</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -122.479139,37.7539633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lam Hoa Thuan</name>
+        <description>Vietnamese / Teochew / Chiuchow / Chaozhou / Teo Chow / Chinjiew</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4831735,37.763085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mi Southeast Asian Eatery</name>
+        <description>Vietnamese / Teochew / Chiuchow / Chaozhou / Teo Chow / Chinjiew</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -122.306706,37.899174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Sun Restaurant</name>
+        <description>Vietnamese / Teochew / Chiuchow / Chaozhou / Teo Chow / Chinjiew</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -122.407252,37.7951775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thanh Ky Restaurant</name>
+        <description>Vietnamese / Teochew / Chiuchow / Chaozhou / Teo Chow / Chinjiew</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2535005,37.7935823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vien Huong Restaurant</name>
+        <description>Vietnamese / Teochew / Chiuchow / Chaozhou / Teo Chow / Chinjiew</description>
+        <styleUrl>#icon-503-62AF44</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2725067,37.7992494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dragon River Restaurant</name>
+        <description>Hakka</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.473564,37.780368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hakka Restaurant</name>
+        <description>Hakka</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.505942,37.773239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ton Kiang</name>
+        <description>Hakka</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4819911,37.7799199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[T - 28 Bakery & Cafe]]></name>
+        <description>Macau</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4851481,37.7424526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jade Garden</name>
+        <description>Shunde</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4976191,37.7758599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Yum's Bistro]]></name>
+        <description>Shunde</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0521941,37.5671213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sogo Tofu</name>
+        <description>Vegetarian</description>
+        <styleUrl>#icon-503-93D7E8</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0313557,37.2952766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Enjoy Vegetarian Restaurant</name>
+        <description>Vegetarian</description>
+        <styleUrl>#icon-503-93D7E8</styleUrl>
+        <Point>
+          <coordinates>
+            -122.405254,37.795841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Enjoy Vegetarian Restaurant</name>
+        <description>Vegetarian</description>
+        <styleUrl>#icon-503-93D7E8</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4691486,37.7604075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Garden Fresh Chinese Vegan Cuisine</name>
+        <description>Vegetarian</description>
+        <styleUrl>#icon-503-93D7E8</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1628838,37.4455671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Garden Fresh Chinese Vegan Cuisine</name>
+        <description>Vegetarian</description>
+        <styleUrl>#icon-503-93D7E8</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0890864,37.3878683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Long Life Vegi House</name>
+        <description>Vegetarian</description>
+        <styleUrl>#icon-503-93D7E8</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2674236,37.8724722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lucky Creation Vegetarian Restaurant</name>
+        <description>Vegetarian</description>
+        <styleUrl>#icon-503-93D7E8</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4074578,37.7952785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Veggie Lee</name>
+        <description>Vegetarian</description>
+        <styleUrl>#icon-503-93D7E8</styleUrl>
+        <Point>
+          <coordinates>
+            -122.104522,37.644328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shangrila Vegetarian Restaurant</name>
+        <description>Vegetarian</description>
+        <styleUrl>#icon-503-93D7E8</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4798303,37.7637115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Chennai Club</name>
+        <description>Indian / Desi Chinese</description>
+        <styleUrl>#icon-503-FAD199</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3065184,37.5455665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Go Chaatzz</name>
+        <description>Indian / Desi Chinese</description>
+        <styleUrl>#icon-503-FAD199</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9801534,37.5541667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Hot Chilli Pepper</name>
+        <description>Indian / Desi Chinese</description>
+        <styleUrl>#icon-503-FAD199</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2604498,37.5067095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Porteño Chifa Peruano</name>
+        <description>Chifa / Peruvian</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.441182,37.715818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ace King Music Restaurant</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0075241,37.5244204,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>G.G. SKEWERS</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0100658,37.5631131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barbecue Factory</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.930855,37.4936285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chef Yang's BBQ]]></name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0154553,37.335492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FT BBQ</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9159823,37.4194694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TLT BBQ</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9621749,37.5330901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Apple Green Bistro</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0158201,37.3357114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boiling Beijing</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4115591,37.6274153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafe taiwan</name>
+        <description>Hakka</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.858768,37.6694727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CBI kitchen</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9173963,37.4236788,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chili Pot</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0402502,37.3367995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>China Village Restaurant</name>
+        <description>Shandong</description>
+        <styleUrl>#icon-503-EE9C96</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2912248,37.890863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dong Bei Mama</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4703422,37.7804718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fey Restaurant</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1867025,37.4557638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Five Happiness</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4639634,37.7812815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hankow Cuisine</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0328739,37.3074949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Shen Yang Restaurant</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0223283,37.5895401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Dong Best</name>
+        <description>Shaanxi</description>
+        <styleUrl>#icon-503-A7B5D7</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4596426,37.7810751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shandong Deluxe</name>
+        <description>Shaanxi</description>
+        <styleUrl>#icon-503-A7B5D7</styleUrl>
+        <Point>
+          <coordinates>
+            -122.477531,37.743108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OK Noodle</name>
+        <description>Some Xinjiang dishes</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0176879,37.5378542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Dong Best</name>
+        <description>Some Xinjiang dishes</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4596426,37.7810751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shandong Deluxe</name>
+        <description>Some Xinjiang dishes</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -122.477531,37.743108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silk Road - Kyrgyzstan cuisine</name>
+        <description>Some Xinjiang dishes</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4770808,37.7280817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Liang's Kitchen]]></name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9165009,37.4219934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Restaurant</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0618957,37.9114447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Mountain Restaurant</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.086813,37.680722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B.B.Q king</name>
+        <description>Dongbei / Northeast </description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.408701,37.6172548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fashion Wok</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2704489,37.5452613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Foodie Hall</name>
+        <styleUrl>#icon-503-FFFFFF-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9159162,37.4194569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>IPOT</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4732537,37.7639685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spicy Station</name>
+        <description>Wuhan / Hubei</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0341988,37.3248283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hotpot First</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9969886,37.3977348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hot Pot House</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2699886,37.8024397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boiling Point</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9293936,37.4891076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>H I T</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9180418,37.4235902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hot Spot Restaurant</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.242324,37.7657446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Little Hot Pot</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9731076,37.5003886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Milk and Honey Cafe</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0425774,37.5754299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lollipot</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4754751,37.7432541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>One Boiling Pot Mixian Noodles</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.478759,37.7427739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peak Point</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2588111,37.8649044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tasty Pot</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2669162,37.868732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tasty Pot</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0509961,37.5508998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tasty Pot</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8542521,37.3328107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>V-Pot Restaurant</name>
+        <description>Sichuan Hot Pot</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2984016,37.8895674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Wu Ji's Mala House]]></name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8878356,37.3876762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bao House</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9076232,37.4297242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fortune Kitchen</name>
+        <description>Dongbei / Northeast</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0440332,37.5761479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peking Duck Restaurant</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1426858,37.4284457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B.B.Q King</name>
+        <description>Dongbei / Northeast</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.408701,37.6172548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B.B.Q King</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.408701,37.6172548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Soong Soong Chinese Restaurant</name>
+        <description>Northern with noodle specialities</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.965457,37.32269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tēo Restaurant and Bar</name>
+        <description>Teochew / Chiuchow / Chaozhou</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4109112,37.7790011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Din Tai Fung</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9441444,37.3261095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Din Tai Fung</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9441444,37.3261095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chef Zhao Kitchen</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1259913,37.4483687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Famous Bao</name>
+        <description>Shaanxi</description>
+        <styleUrl>#icon-503-A7B5D7</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2599769,37.8679677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sizzling Gourmet</name>
+        <description>Hunan hot pot</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0149068,37.3219377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chong Qing Xiao Mian</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4053695,37.7964178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Terra Cotta Warrior</name>
+        <description>Shaanxi</description>
+        <styleUrl>#icon-503-A7B5D7</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4895091,37.7609236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanlin tea room</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4052414,37.7955359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lulu's Kitchen]]></name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9283861,37.709995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Taro</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0144276,37.5560207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Inchin's Bamboo Garden]]></name>
+        <description>Indian / Desi Chinese</description>
+        <styleUrl>#icon-503-FAD199</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0310557,37.3762305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Terra Cotta Warrior</name>
+        <description>Some Xinjiang dishes</description>
+        <styleUrl>#icon-503-B7DBAB</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4895091,37.7609236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zen Noodle Bar</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3192886,37.5673125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sichuan Style Restaurant</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.282567,37.891411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Xiang Xiang Noodle</name>
+        <description>Northern with noodle specialities</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.99517,37.404181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peking Alley</name>
+        <description>Beijing</description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2903081,37.530174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tai Chi Jian Bing</name>
+        <styleUrl>#icon-503-FFFFFF-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4665692,37.7635494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Hong's Restaurant]]></name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.498943,37.742199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Wenzhou Fish, Noodles & More]]></name>
+        <description>Wenzhou</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8938403,37.3498229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fang Yuan Kitchen</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.474295,37.718071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eden Silk Road Cuisine</name>
+        <description>Uyghur</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3233046,37.5654831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Skyview Noodle & Tea]]></name>
+        <description>Anhui noodle dish</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8821606,38.0330415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chang Luong Restaurant</name>
+        <description>Shandong</description>
+        <styleUrl>#icon-503-EE9C96</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2583296,37.8682105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Inchins Bamboo Garden</name>
+        <description>Indian / Desi Chinese</description>
+        <styleUrl>#icon-503-FAD199</styleUrl>
+        <Point>
+          <coordinates>
+            -121.940795,37.402264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Inchin's Bamboo Garden]]></name>
+        <description>Indian / Desi Chinese</description>
+        <styleUrl>#icon-503-FAD199</styleUrl>
+        <Point>
+          <coordinates>
+            -122.32337,37.566768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gallus Pot</name>
+        <description>Shenzhen Hot Pot</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0199909,37.5896015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Qi Wei Kitchen</name>
+        <description>Wuhan / Hubei</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0516845,37.5499143,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanghai Bistro</name>
+        <description>Shanghai</description>
+        <styleUrl>#icon-503-FFDD5E</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0053913,37.5236514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chinese Szechuan Restaurant</name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8961052,37.6774797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>T4 Livermore</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.7480743,37.6807593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chef Hung Taiwanese Beef Noodle</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0093603,37.3233207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beijing Duck House</name>
+        <description>Beijing</description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9140564,37.4270737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taiwan Taste</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.031675,37.2924697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chef Z's]]></name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0311894,37.2954758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sichuan Table</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.506042,37.775156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tang Collection</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4773949,37.7427566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tang Collection</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4774076,37.7427959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spicy Heaven 百味軒</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3255481,37.5636612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chef Liu Restaurant</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.861405,37.388635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noodle Talk Home Cuisine</name>
+        <description>Hunan</description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1143702,37.4009239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chili Boy</name>
+        <description>Hot pot</description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8800098,37.3415691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Paik's Noodle]]></name>
+        <description>Shandong / Korean Chinese</description>
+        <styleUrl>#icon-503-B29189</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9782063,37.3513928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chongqing xiao mian</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0396652,37.5756135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Homey Skewer</name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9741188,37.3188451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chef Z's]]></name>
+        <description>Yunnan</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0311894,37.2954758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boiling Point</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3232707,37.5638715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>168 Restaurant</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3072158,37.899152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Izzo Restaurant</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8873556,37.3869376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>England Rose Garden</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9156828,37.4194543,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chef Wu Restaurant</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.038819,37.5306426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cambowan Restaurant</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2879588,37.5293881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boiling Schezuan Hotpot</name>
+        <description>Sichuan Hot Pot</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3890649,37.5996061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Redwood Bistro</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2355938,37.4871029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taiwanese</name>
+        <styleUrl>#icon-503-FFFFFF-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9164034,37.4207741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jin Li Yuan</name>
+        <description>Sichuan Hot Pot</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0425582,37.3387898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boiling Point</name>
+        <description>Taiwanese Hot Pot</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8835329,37.3869284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bento Express 台北食堂</name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.042902,37.3379709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Fire Point Bbq & Noodle]]></name>
+        <description>Skewers / Shao kao</description>
+        <styleUrl>#icon-503-C6A4CF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0446066,37.5755504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[New Ming's Restaurant]]></name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4007768,37.7871259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Feast</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3883824,37.5998491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Feast</name>
+        <description>Tanjia Cai</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3883824,37.5998491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tea Breeze / River Dragon</name>
+        <styleUrl>#icon-503-FFFFFF-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8737318,37.6994284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chick & Tea]]></name>
+        <description>Taiwanese chicken</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2642611,37.8288956,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chick & Tea]]></name>
+        <description>Taiwanese chicken</description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9117276,37.4552191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spicy Way 辣道</name>
+        <description>Sichuan</description>
+        <styleUrl>#icon-503-E6EEA3</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9104479,37.4570266,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bing's Dumpling]]></name>
+        <description>Taiwanese</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0404789,37.5752622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
