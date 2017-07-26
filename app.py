@@ -2,6 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 
 from flask import render_template, request, jsonify
+from pykml import parser
 
 import yelp
 
@@ -13,11 +14,28 @@ locations = [
     {'name': 'Tashi delek', 'lat': 37.919973, 'lng': -122.314227}
 ];
 
+def get_locations(kml_path):
+    locations = []
+    with open('regional-chinese-sf-bay-area.kml') as f:
+        root = parser.parse(f).getroot()
+        folder = root.Document.Folder
+
+        for placemark in folder.Placemark:
+            location = {}
+            location['name'] = placemark.name
+
+            coordinates = unicode(placemark.Point.coordinates).strip().split(',')
+
+            location['lng'] = coordinates[0]
+            location['lat'] = coordinates[1]
+            locations.append(location)
+
+    return locations
+
 @app.route("/")
 def showMap():
-    with open('regional-chinese-sf-bay-area.kml') as f:
-        doc = f.read()
-        return render_template("index.html", locations=locations)
+    locations = get_locations('regional-chinese-sf-bay-area.kml')
+    return render_template("index.html", locations=locations)
 
 @app.route("/business")
 def getBusinessInfo():
