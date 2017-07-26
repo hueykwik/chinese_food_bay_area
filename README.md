@@ -1,6 +1,6 @@
 Neighborhood Map
 
-Uses Python 3
+Uses Python 2.7 because pykml depends on it
 
 Depends on Flask.
 
