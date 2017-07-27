@@ -1,3 +1,12 @@
+var Region = function(name, restaurants) {
+    this.name = name;
+    this.restaurants = ko.observableArray(restaurants);
+
+    this.addRestaurant = function(restaurant) {
+        this.children.push(restaurant);
+    }.bind(this);
+};
+
 var ViewModel = function() {
   var self = this;
 
