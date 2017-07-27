@@ -5,11 +5,20 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles.css')}}">
     <script>
+    // var locations = [
+    // {% for location in locations %}
+    //   {name: '{{location.name}}', location: {lat: {{location.lat}}, lng: {{location.lng}}}},
+    // {% endfor %}
+    // ];
+
     var locations = [
-    {% for location in locations %}
-      {name: '{{location.name}}', location: {lat: {{location.lat}}, lng: {{location.lng}}}},
-    {% endfor %}
+     {name: 'Gou Bu Li', location: {lat: 37.961543, lng: -122.325498}, regionName: 'Shandong'},
+     {name: 'Hometown Noodle', location: {lat: 37.261173, lng: -121.932017}, regionName: 'Shandong'},
+     {name: 'T4 Livermore', location: {lat: 37.680343, lng: -121.747897}, regionName: 'Taiwan'},
+     {name: 'Sichuan Table', location: {lat: 37.775155, lng: -122.50606}, regionName: 'Taiwan'},
+     {name: 'Tashi delek', location: {lat: 37.919973, lng: -122.314227}, regionName: 'Dongbei'}
     ];
+
     </script>
   </head>
   <body>
