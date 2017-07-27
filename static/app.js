@@ -3,10 +3,26 @@ var ViewModel = function() {
 
   self.filterText = ko.observable("");
   self.locationList = ko.computed(function() {
-    return locations.filter(function(location) {
+    var sortedLocations = locations.sort(function(a, b) {
+      var regionA = a.regionName.toLowerCase();
+      var regionB = b.regionName.toLowerCase();
+
+      if (regionA < regionB) {
+        return -1;
+      }
+
+      if (regionA > regionB) {
+        return 1;
+      }
+
+      return 0;
+    });
+
+    var filteredLocations = sortedLocations.filter(function(location) {
       var name = location.name;
       return name.toLowerCase().includes(self.filterText().toLowerCase());
-    })
+    });
+    return filteredLocations;
   });
 
   self.locationList.subscribe(function(newValue) {
