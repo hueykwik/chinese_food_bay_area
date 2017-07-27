@@ -6,14 +6,6 @@ from pykml import parser
 
 import yelp
 
-locations = [
-    {'name': 'Gou Bu Li', 'lat': 37.961543, 'lng': -122.325498},
-    {'name': 'Hometown Noodle', 'lat': 37.261173, 'lng': -121.932017},
-    {'name': 'T4 Livermore', 'lat': 37.680343, 'lng': -121.747897},
-    {'name': 'Sichuan Table', 'lat': 37.775155, 'lng': -122.50606},
-    {'name': 'Tashi delek', 'lat': 37.919973, 'lng': -122.314227}
-];
-
 def get_locations(kml_path):
     locations = []
     with open('regional-chinese-sf-bay-area.kml') as f:
