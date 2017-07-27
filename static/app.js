@@ -7,6 +7,12 @@ var Region = function(name, restaurants) {
     }.bind(this);
 };
 
+var regions = [];
+var regionDict = _.groupBy(locations, 'regionName');
+_.forEach(regionDict, function(restaurants, regionName) {
+  regions.push(new Region(regionName, restaurants));
+});
+
 var ViewModel = function() {
   var self = this;
 
