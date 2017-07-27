@@ -33,8 +33,11 @@
           </ul>
 
           <h4>By Region</h4>
-          <ul id="location-list" data-bind="foreach: regions">
-            <li data-bind="text: name"></li>
+          <ul id="region-list" data-bind="foreach: regions">
+            <h5 data-bind="text:name"></h5>
+            <ul id="restaurant-list" data-bind="foreach: restaurants">
+              <li data-bind="text:name"></li>
+            </ul>
           </ul>
         </div>
         <div class="col-sm-8" id="map"></div>
