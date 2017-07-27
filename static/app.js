@@ -17,6 +17,7 @@ var ViewModel = function() {
   var self = this;
 
   self.filterText = ko.observable("");
+  self.regions = ko.observableArray(regions);
   self.locationList = ko.computed(function() {
     var sortedLocations = locations.sort(function(a, b) {
       var regionA = a.regionName.toLowerCase();
