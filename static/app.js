@@ -13,7 +13,17 @@ var ViewModel = function() {
   var self = this;
 
   self.filterText = ko.observable("");
-  self.regions = ko.observableArray(regions);
+  //self.regions = ko.observableArray(regions);
+
+  self.regions = ko.computed(function() {
+    var filteredRegions = [];
+    var i;
+    for (i = 0; i < regions.length; i++) {
+      curRegion = regions[i];
+      filteredRegions.push(curRegion);
+    }
+    return filteredRegions;
+  });
 
   self.locationList = ko.computed(function() {
     var sortedLocations = locations.sort(function(a, b) {
