@@ -1,9 +1,15 @@
-Neighborhood Map
+# Chinese Food San Francisco Bay Area
+This app displays Chinese restaurants broken out by region in the San Francisco Bay Area.
 
-Uses Python 2.7 because pykml depends on it
+# Running the app
 
-Depends on Flask.
+## Dependencies
+Python 2.7
+Flask 0.11.1
+Yelp developer account, i.e. a Yelp CLIENT_ID/CLIENT_SECRET pair.
 
-To run:
-Create a Yelp CLIENT_ID and CLIENT_SECRET, put this in a credentials.py file (see credentials_sample.py)
-python app.py
+## Running the app
+
+1. Put your CLIENT_ID/CLIENT_SECRET in a credentials.py file.
+2. Run `python app.py`
+
