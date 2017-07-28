@@ -15,12 +15,18 @@ var ViewModel = function() {
   self.filterText = ko.observable("");
   //self.regions = ko.observableArray(regions);
 
+
   self.regions = ko.computed(function() {
+    var filterTextLower = self.filterText().toLowerCase();
     var filteredRegions = [];
     var i;
     for (i = 0; i < regions.length; i++) {
       curRegion = regions[i];
-      filteredRegions.push(curRegion);
+
+      if (curRegion.name.toLowerCase().includes(filterTextLower)) {
+        filteredRegions.push(curRegion);
+        continue;
+      }
     }
     return filteredRegions;
   });
