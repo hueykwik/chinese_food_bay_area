@@ -13,8 +13,6 @@ var ViewModel = function() {
   var self = this;
 
   self.filterText = ko.observable("");
-  //self.regions = ko.observableArray(regions);
-
 
   self.regions = ko.computed(function() {
     var filterTextLower = self.filterText().toLowerCase();
@@ -24,6 +22,19 @@ var ViewModel = function() {
       curRegion = regions[i];
 
       if (curRegion.name.toLowerCase().includes(filterTextLower)) {
+        filteredRegions.push(curRegion);
+        continue;
+      }
+
+      var matchingRestaurants = curRegion.restaurants.filter(function(restaurant) {
+        var name = restaurant.name.toLowerCase();
+        var regionName = restaurant.regionName.toLowerCase();
+
+        return name.includes(filterTextLower) || regionName.includes(filterTextLower);
+      });
+
+      if (matchingRestaurants.length > 0) {
+        curRegion = new Region(curRegion.name, matchingRestaurants);
         filteredRegions.push(curRegion);
         continue;
       }
