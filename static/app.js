@@ -1,6 +1,6 @@
 var Region = function(name, restaurants) {
     this.name = name;
-    this.restaurants = ko.observableArray(restaurants);
+    this.restaurants = restaurants;
 };
 
 var regions = [];
@@ -14,6 +14,7 @@ var ViewModel = function() {
 
   self.filterText = ko.observable("");
   self.regions = ko.observableArray(regions);
+
   self.locationList = ko.computed(function() {
     var sortedLocations = locations.sort(function(a, b) {
       var regionA = a.regionName.toLowerCase();
