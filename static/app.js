@@ -42,34 +42,21 @@ var ViewModel = function() {
     return filteredRegions;
   });
 
-  self.locationList = ko.computed(function() {
-    var sortedLocations = locations.sort(function(a, b) {
-      var regionA = a.regionName.toLowerCase();
-      var regionB = b.regionName.toLowerCase();
-
-      if (regionA < regionB) {
-        return -1;
-      }
-
-      if (regionA > regionB) {
-        return 1;
-      }
-
-      return 0;
-    });
-
-    var filteredLocations = sortedLocations.filter(function(location) {
-      var name = location.name;
-      return name.toLowerCase().includes(self.filterText().toLowerCase());
-    });
-    return filteredLocations;
-  });
-
-  self.locationList.subscribe(function(newValue) {
-    console.log("The location list is now " + newValue.map(function(x) { return x.name }));
-
+  self.regions.subscribe(function(newValue) {
     clearMarkers();
-    addMarkersToMap(map, self.locationList(), false);
+
+    var restaurants = newValue.map(function(region) {
+      return region.restaurants;
+    });
+
+    restaurants = restaurants.reduce(function(a, b) {
+      return a.concat(b);
+    });
+
+    console.log("The region list is now " + newValue.map(function(x) { return x.name }));
+    console.log("The restaurant list is now " + restaurants.map(function(x) { return x.name }));
+
+    addMarkersToMap(map, restaurants, false);
   });
 }
 
