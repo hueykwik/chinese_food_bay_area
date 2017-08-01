@@ -15,3 +15,11 @@
 #region-list {
   padding: 0;
 }
+
+ul {
+  list-style-type: none;
+}
+
+#restaurant-list {
+  padding-left: 18px;
+}
