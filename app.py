@@ -6,17 +6,19 @@ from pykml import parser
 
 import yelp
 
+KML_FILE = 'regionalchinese-sf-bay-area.kml'
+
 def get_locations(kml_path):
     locations = []
-    with open('regional-chinese-sf-bay-area.kml') as f:
+    with open(KML_FILE) as f:
         root = parser.parse(f).getroot()
         folder = root.Document.Folder
 
         for placemark in folder.Placemark:
             location = {}
-            location['name'] = placemark.name
+            location['name'] = unicode(placemark.name.text)
 
-            coordinates = unicode(placemark.Point.coordinates).strip().split(',')
+            coordinates = str(placemark.Point.coordinates).strip().split(',')
 
             location['lng'] = coordinates[0]
             location['lat'] = coordinates[1]
