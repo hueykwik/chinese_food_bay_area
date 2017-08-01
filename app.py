@@ -6,7 +6,7 @@ from pykml import parser
 
 import yelp
 
-KML_FILE = 'regionalchinese-sf-bay-area.kml'
+KML_FILE = 'regional-chinese-sf-bay-area.kml'
 
 def get_locations(kml_path):
     locations = []
