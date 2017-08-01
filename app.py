@@ -20,6 +20,13 @@ def get_locations(kml_path):
 
             location['lng'] = coordinates[0]
             location['lat'] = coordinates[1]
+
+            try:
+                location['regionName'] = placemark.description
+            except AttributeError:
+                # Not all region names are present in the KML.
+                location['regionName'] = 'None'
+
             locations.append(location)
 
     return locations
