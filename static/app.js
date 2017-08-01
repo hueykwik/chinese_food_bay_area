@@ -1,3 +1,8 @@
+/**
+* @description Represents a Region
+* @param {name} name - The name of the region
+* @param {list} restaurants - List of restaurants
+*/
 var Region = function(name, restaurants) {
     this.name = name;
     this.restaurants = restaurants;
@@ -9,11 +14,17 @@ _.forEach(regionDict, function(restaurants, regionName) {
   regions.push(new Region(regionName, restaurants));
 });
 
+/**
+* @description Represents our View Model
+*/
 var ViewModel = function() {
   var self = this;
 
   self.filterText = ko.observable("");
 
+  /*
+  Matches restaurants based on region name or restaurant name.
+  */
   self.regions = ko.computed(function() {
     var filterTextLower = self.filterText().toLowerCase();
     var filteredRegions = [];
@@ -21,6 +32,7 @@ var ViewModel = function() {
     for (i = 0; i < regions.length; i++) {
       curRegion = regions[i];
 
+      // If the region name matches, you're done.
       if (curRegion.name.toLowerCase().includes(filterTextLower)) {
         filteredRegions.push(curRegion);
         continue;
@@ -33,6 +45,7 @@ var ViewModel = function() {
         return name.includes(filterTextLower) || regionName.includes(filterTextLower);
       });
 
+      // Include the region of the restaurants that matched by name.
       if (matchingRestaurants.length > 0) {
         curRegion = new Region(curRegion.name, matchingRestaurants);
         filteredRegions.push(curRegion);
