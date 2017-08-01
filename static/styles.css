@@ -11,3 +11,7 @@
 #filter {
   width: 100%;
 }
+
+#region-list {
+  padding: 0;
+}
