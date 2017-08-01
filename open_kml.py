@@ -9,9 +9,15 @@ with open('regional-chinese-sf-bay-area.kml') as f:
     folder = root.Document.Folder
 
     for placemark in folder.Placemark:
+        print('')
         print unicode(placemark.name)
         coordinates = unicode(placemark.Point.coordinates).strip().split(',')
         print coordinates
+
+        try:
+            print unicode(placemark.description)
+        except AttributeError:
+            print 'missing description'
 
     print(root)
     print(root.Document)
