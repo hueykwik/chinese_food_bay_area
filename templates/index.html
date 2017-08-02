@@ -22,7 +22,7 @@
            <input id="filter" type="text" placeholder="Filter by name or region" data-bind="textInput: filterText">
 
           <ul id="region-list" data-bind="foreach: regions">
-            <h5 data-bind="text:name"></h5>
+            <h5 data-bind="text:nameCount"></h5>
             <ul id="restaurant-list" data-bind="foreach: restaurants">
               <li data-bind="text: name, click: $root.showMarker"></li>
             </ul>

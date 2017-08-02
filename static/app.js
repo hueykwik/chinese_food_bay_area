@@ -6,6 +6,10 @@
 var Region = function(name, restaurants) {
     this.name = name;
     this.restaurants = restaurants;
+
+    this.nameCount = ko.computed(function() {
+      return name + ' (' + restaurants.length + ')';
+    });
 };
 
 var regions = [];
