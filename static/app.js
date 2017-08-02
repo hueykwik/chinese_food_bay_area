@@ -72,6 +72,11 @@ var ViewModel = function() {
         continue;
       }
     }
+
+    filteredRegions.sort(function(regionA, regionB) {
+      return regionB.restaurants.length - regionA.restaurants.length;
+    });
+
     return filteredRegions;
   });
 
