@@ -22,6 +22,10 @@ var ViewModel = function() {
 
   self.filterText = ko.observable("");
 
+  self.foo = function() {
+    console.log('foo');
+  }
+
   /*
   Matches restaurants based on region name or restaurant name.
   */
