@@ -23,7 +23,14 @@ var ViewModel = function() {
   self.filterText = ko.observable("");
 
   self.showMarker = function(restaurant) {
-    console.log(restaurant);
+    // find marker
+    var marker = markers.find(function(m) {
+      return m.title == restaurant.name;
+    });
+
+    // display it
+    populateInfoWindow(marker, infowindow);
+    console.log(marker);
   }
 
   /*
@@ -81,6 +88,7 @@ ko.applyBindings(new ViewModel());
 
 var map;
 var markers = [];
+var infowindow;
 
 function initMap() {
   var sfba = {lat: 37.8272, lng: -122.2913};
@@ -110,7 +118,7 @@ function createMarkers(locations) {
 }
 
 function addInfoWindowToMarkers(markers, map) {
-  var infowindow = new google.maps.InfoWindow({
+  infowindow = new google.maps.InfoWindow({
     content: 'information'
   });
 
