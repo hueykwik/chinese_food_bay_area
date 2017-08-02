@@ -181,11 +181,7 @@ function populateInfoWindow(marker, infowindow) {
         infowindow.setContent('<div>' + marker.title + '</div><div>Yelp Rating: ' + result.rating + '</div>');
       },
       error: function (xhr, status, errorThrown) {
-        //Here the status code can be retrieved like;
-        console.log(xhr.status);
-
-        //The message added to Response object in Controller can be retrieved as following.
-        console.log(xhr.responseText);
+        infowindow.setContent('<div>' + marker.title + '</div><div>Yelp Rating unavailable</div>');
       }
     });
   }
