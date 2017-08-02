@@ -74,6 +74,14 @@ var ViewModel = function() {
     }
 
     filteredRegions.sort(function(regionA, regionB) {
+      if (regionA.name == 'None') {
+        return 1;
+      }
+
+      if (regionB.name == 'None') {
+        return -1;
+      }
+
       return regionB.restaurants.length - regionA.restaurants.length;
     });
 
