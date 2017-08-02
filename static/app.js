@@ -74,6 +74,7 @@ var ViewModel = function() {
     }
 
     filteredRegions.sort(function(regionA, regionB) {
+      // Make 'None' show up last.
       if (regionA.name == 'None') {
         return 1;
       }
