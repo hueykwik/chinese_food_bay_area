@@ -22,8 +22,8 @@ var ViewModel = function() {
 
   self.filterText = ko.observable("");
 
-  self.foo = function() {
-    console.log('foo');
+  self.showMarker = function(restaurant) {
+    console.log(restaurant);
   }
 
   /*
