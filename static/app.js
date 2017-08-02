@@ -42,10 +42,7 @@ var ViewModel = function() {
     console.log(marker);
   }
 
-  /*
-  Matches restaurants based on region name or restaurant name.
-  */
-  self.regions = ko.computed(function() {
+  self.filterRegions = function(regions, filterText) {
     var filterTextLower = self.filterText().toLowerCase();
     var filteredRegions = [];
     var i;
@@ -72,6 +69,15 @@ var ViewModel = function() {
         continue;
       }
     }
+    return filteredRegions;
+  }
+
+  /*
+  Matches restaurants based on region name or restaurant name, and
+  then sorts by number of restaurants per category.
+  */
+  self.regions = ko.computed(function() {
+    var filteredRegions = self.filterRegions(regions, self.filterText);
 
     filteredRegions.sort(function(regionA, regionB) {
       // Make 'None' show up last.
