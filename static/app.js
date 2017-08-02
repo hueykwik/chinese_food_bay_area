@@ -23,13 +23,18 @@ var ViewModel = function() {
   self.filterText = ko.observable("");
 
   self.showMarker = function(restaurant) {
-    // find marker
+    // Find marker
     var marker = markers.find(function(m) {
       return m.title == restaurant.name;
     });
 
-    // display it
+    // Display it
     populateInfoWindow(marker, infowindow);
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+    setTimeout(function() {
+      marker.setAnimation(null);
+    }, 2000);
+
     console.log(marker);
   }
 
