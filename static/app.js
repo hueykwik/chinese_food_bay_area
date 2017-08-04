@@ -40,7 +40,16 @@ var ViewModel = function() {
     }, 2000);
 
     console.log(marker);
-  }
+  };
+
+  self.filterRestaurants = function(restaurants, filterTextLower) {
+    restaurants.filter(function(restaurant) {
+      var name = restaurant.name.toLowerCase();
+      var regionName = restaurant.regionName.toLowerCase();
+
+      return name.includes(filterTextLower) || regionName.includes(filterTextLower);
+    });
+  };
 
   self.filterRegions = function(regions, filterText) {
     var filterTextLower = self.filterText().toLowerCase();
@@ -55,12 +64,7 @@ var ViewModel = function() {
         continue;
       }
 
-      var matchingRestaurants = curRegion.restaurants.filter(function(restaurant) {
-        var name = restaurant.name.toLowerCase();
-        var regionName = restaurant.regionName.toLowerCase();
-
-        return name.includes(filterTextLower) || regionName.includes(filterTextLower);
-      });
+      var matchingRestaurants = self.filterRestaurants(curRegion.restaurants, filterTextLower);
 
       // Include the region of the restaurants that matched by name.
       if (matchingRestaurants.length > 0) {
@@ -70,7 +74,7 @@ var ViewModel = function() {
       }
     }
     return filteredRegions;
-  }
+  };
 
   /*
   Matches restaurants based on region name or restaurant name, and
@@ -106,12 +110,9 @@ var ViewModel = function() {
       return a.concat(b);
     });
 
-    console.log("The region list is now " + newValue.map(function(x) { return x.name }));
-    console.log("The restaurant list is now " + restaurants.map(function(x) { return x.name }));
-
     addMarkersToMap(map, restaurants, false);
   });
-}
+};
 
 ko.applyBindings(new ViewModel());
 
@@ -146,6 +147,12 @@ function createMarkers(locations) {
   return markers;
 }
 
+function addClickListener(marker, infowindow) {
+  marker.addListener('click', function() {
+    populateInfoWindow(this, infowindow);
+  });
+}
+
 function addInfoWindowToMarkers(markers, map) {
   infowindow = new google.maps.InfoWindow({
     content: 'information'
@@ -153,10 +160,7 @@ function addInfoWindowToMarkers(markers, map) {
 
   for (var i = 0; i < markers.length; i++) {
     var marker = markers[i];
-    marker.addListener('click', function() {
-      console.log(this);
-      populateInfoWindow(this, infowindow);
-    });
+    addClickListener(marker, infowindow);
   }
 }
 
