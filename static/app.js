@@ -130,6 +130,10 @@ function initMap() {
   addMarkersToMap(map, locations, true);
 }
 
+function mapError() {
+  alert("Maps could not load. Please try again later.");
+}
+
 function createMarkers(locations) {
   var markers = [];
 
