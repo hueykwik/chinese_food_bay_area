@@ -144,7 +144,7 @@ def query_api(term, latitude, longitude):
     businesses = response.get('businesses')
 
     if not businesses:
-        print(u'No businesses for {0} in {1} found.'.format(term, location))
+        print(u'No businesses for {0} in {1}.{2} found.'.format(term, longitude, latitude))
         return
 
     business_id = businesses[0]['id']
