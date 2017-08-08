@@ -43,7 +43,7 @@ var ViewModel = function() {
   };
 
   self.filterRestaurants = function(restaurants, filterTextLower) {
-    restaurants.filter(function(restaurant) {
+    return restaurants.filter(function(restaurant) {
       var name = restaurant.name.toLowerCase();
       var regionName = restaurant.regionName.toLowerCase();
 
