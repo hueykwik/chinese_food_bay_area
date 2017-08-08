@@ -32,12 +32,7 @@ var ViewModel = function() {
       return m.title == restaurant.name;
     });
 
-    // Display it
     populateInfoWindow(marker, infowindow);
-    marker.setAnimation(google.maps.Animation.BOUNCE);
-    setTimeout(function() {
-      marker.setAnimation(null);
-    }, 2000);
 
     console.log(marker);
   };
@@ -169,6 +164,10 @@ function addInfoWindowToMarkers(markers, map) {
 }
 
 function populateInfoWindow(marker, infowindow) {
+  marker.setAnimation(google.maps.Animation.BOUNCE);
+    setTimeout(function() {
+      marker.setAnimation(null);
+  }, 2000);
   if (infowindow.marker != marker) {
     infowindow.marker = marker;
     infowindow.setContent('<div>' + marker.title + '</div><div>Loading...</div>');
